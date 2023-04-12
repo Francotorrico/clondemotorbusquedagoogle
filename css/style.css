@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    
+}
+main{
+}
+header{
+ /*   background-color: teal;*/
+    height: 60px;
+    justify-content: end;
+    display: flex;
+    padding: 0 12px;
+}
+ header .opciones{
+ /*   background-color: green;*/
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+ }
+ header a{
+    color: #21215b;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+ }
+ header a img{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+ }
+div{
+   /* background-color: bisque;*/
+}
+
+.imagengoogle{
+   padding-left: 40%;
+   padding-top: 8%;
+   width: 20%;
+}
+.buscadorgoogle{
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+    z-index: 3;
+    height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 638px;
+    width: auto;
+    max-width: 584px;
+
+}
+.contenedorimagengoogle{
+    padding-top: 4%;
+}
+.lupa{
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    background-image: url(../img/lupa.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+input{
+    flex: 1;
+    display: flex;
+    padding: 5px 8px 0 14px;
+    border: none;
+}
+.buscador{
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+    padding-bottom: 15%;
+}
+button{
+background-color: #f2f5f8;
+border: 1px solid #f8f9fa;
+border-radius: 4px;
+color: #3c4043;
+font-family: arial,sans-serif;
+font-size: 14px;
+margin: 11px 4px;
+padding: 0 16px;
+line-height: 27px;
+height: 36px;
+min-width: 54px;
+text-align: center;
+cursor: pointer;
+user-select: none;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    height: 90px;
+    background-color: #f2f2f2;
+}
+footer section{
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    height: 50%;
+    color: #f2f2f2;
+}
+footer section span{
+    font-size: large;
+    color: #707582;
+}
+.masinfo{
+    border-top: #70758234 solid 1px;
+    display: flex;
+    justify-content: space-between;
+}
+.masinfo div{
+    display: flex;
+    gap: 18px;
+}
+.masinfo div a{
+    text-decoration: none;
+    color: #707582;
+}
